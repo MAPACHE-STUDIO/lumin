@@ -1,7 +1,7 @@
 // src/socket.js
 import { io } from 'socket.io-client';
 
-const socket = io("http://localhost:3001", {
+const socket = io("https://lumin-cgtj.onrender.com", {
   transports: ["websocket"],
   query: {
     userId: "123456",  // Aquí pones el ID del usuario
