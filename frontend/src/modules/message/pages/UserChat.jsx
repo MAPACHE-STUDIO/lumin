@@ -87,7 +87,7 @@ export const UserChat = () => {
         {/* Área de mensajes con scrollbar */}
         <div
           className="flex-1 overflow-y-auto px-2 pt-5"
-          style={{ maxHeight: "calc(93vh - 120px)", position: "relative" }}
+          style={{ maxHeight: "calc(93vh - 100px)", position: "relative" }}
         >
           <MessageList
             messages={messages}
